@@ -1,0 +1,12 @@
+{   
+    "proxy-port": 5000,
+    "db-path": "collected/data.json",
+    "log-info": {
+        "url": true,
+        "text": true,
+        "json": true,
+        "cookies": true,
+        "headers": true,
+        "status_code": true
+    }
+}
