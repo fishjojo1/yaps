@@ -38,6 +38,7 @@ Therefore, this is definitely not meant to be scaled in any sense and is purely 
 ### Filter.py
 EVERY request sent to the proxy server will be sent to the filter() function here in order to determine if the request should be saved
 The function should take in a request parameter(feel free to change this lol), and return a boolean value, ```True``` if the result should be saved and ```False``` otherwise
+<br>
 Eg. to save requests with status code 200
 ```
 def filter(r):
